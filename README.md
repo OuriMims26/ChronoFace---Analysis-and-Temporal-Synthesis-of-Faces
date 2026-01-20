@@ -1,30 +1,33 @@
-# ChronoFace - Module de Vieillissement (Partie 2)
+# ChronoFace - Aging Module (Part 2)
 
-**Auteur :** Ouriel Mimoun  
-**Projet :** ChronoFace - Analyse et Synthèse Temporelle de Visages  
-**Technologie :** CycleGAN (PyTorch)
+**Author:** Ouriel Mimoun  
+**Project:** ChronoFace - Analysis and Temporal Synthesis of Faces  
+**Technology:** CycleGAN (PyTorch)
 
 ---
 
 ## 📋 Description
-Ce module implémente la fonctionnalité de **synthèse de vieillissement et de rajeunissement** du projet ChronoFace. Il utilise une architecture **CycleGAN** (Generative Adversarial Network) pour effectuer un transfert de style "Image-to-Image" sur des données non appariées (Unpaired).
+This module implements the **aging and rejuvenation synthesis** functionality of the ChronoFace project. It uses a **CycleGAN** (Generative Adversarial Network) architecture to perform realistic age transformations on facial images.
 
-Contrairement aux approches classiques, ce modèle a été **entraîné "from scratch"** (depuis zéro) sur le dataset UTKFace, apprenant à dissocier la structure du visage (identité) de l'attribut temporel (âge).
+Unlike traditional approaches, this model was **trained from scratch** on the UTKFace dataset, learning to dissociate facial structure (identity) from age attributes.
 
-### Fonctionnalités Clés :
-* **Vieillissement :** Transformation d'un visage "Jeune" vers "Vieux".
-* **Rajeunissement :** Transformation d'un visage "Vieux" vers "Jeune".
-* **Préservation d'identité :** Utilisation de la *Cycle Consistency Loss* pour garantir que la personne reste reconnaissable.
+### Key Features:
+* **Aging:** Transformation of a "Young" face to "Old". 
+* **Rejuvenation:** Transformation of an "Old" face to "Young". 
+* **Identity Preservation:** Uses *Cycle Consistency Loss* to ensure the person remains recognizable.
 
 ---
 
 ## 🛠️ Installation
 
-### Prérequis
+### Prerequisites
 * Python 3.8+
-* PyTorch (avec support CUDA recommandé)
-* Bibliothèques listées dans `requirements.txt`
+* PyTorch (CUDA support recommended)
+* Libraries listed in `requirements.txt`
 
-### Installation des dépendances
+### Installing Dependencies
 ```bash
 pip install -r requirements.txt
+```
+
+---
