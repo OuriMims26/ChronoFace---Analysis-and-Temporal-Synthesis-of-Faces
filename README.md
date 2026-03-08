@@ -35,6 +35,8 @@ To run the simulations, the following weight files must be present in the projec
 - **`best_G_AB.pth`**: Generator weights for **Aging** (Young -> Old).
 - **`G_BA_45.pth`**: Generator weights for **Rejuvenation** (Old -> Young).
 
+📥 **Download all weights here**: [Google Drive - ChronoFace Weights](https://drive.google.com/drive/folders/10_EO8AE7Fqk7aJcVDLWeXDiSA9fClN15?usp=sharing) (Please place them in the project root folder).
+
 ---
 
 ## 🛠️ Installation & Setup
