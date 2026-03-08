@@ -1,6 +1,6 @@
 # ChronoFace - Aging Module (Part 2)
 
-**Author:** Ouriel Mimoun  
+**Author:** Ouriel Mimoun and Ceylon David 
 **Project:** ChronoFace - Analysis and Temporal Synthesis of Faces  
 **Technology:** CycleGAN (PyTorch)
 
